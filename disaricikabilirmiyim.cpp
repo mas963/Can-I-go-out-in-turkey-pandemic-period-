@@ -15,8 +15,6 @@ int main(){
 	int hour = localTime->tm_hour;
 	int wday = localTime->tm_wday;
 	
-	cout << wday << endl;
-	cout << hour << endl;
 	cout << "Yasinizi giriniz: ";
 	cin >> yas;
 	cout << "Herhangi bir iste calisiyor musunuz?(evet/hayir): ";
